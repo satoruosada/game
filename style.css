@@ -1,0 +1,113 @@
+body{
+  margin: 0;
+  padding:0;
+  width: 100%;
+  }
+.wrap {
+	overflow: hidden;
+}
+header{
+  height:40px;
+  background:rgb(17, 36, 2);
+  text-align: center;
+}
+.head{
+  position: relative;
+  left:37%;
+}
+ul{
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  color: #fff;
+}
+ul.menu li{
+  float: left;
+  position: relative;
+  margin:0 0 0 1px;
+  padding: 7px;
+  width:200px;
+  background-color: #110f0f;
+  display: block;
+}
+ul.sub{
+  display: none;
+  position: absolute;
+  margin-left: -6px;
+  padding: 0;
+}
+ul.sub li a{
+  padding: 5px 10px;
+  margin-left: -5px;
+  margin-right: -5px;
+  margin-bottom: -5px;
+  display: block;
+  color: #fff;
+}
+ul.sub li a:hover{
+  background: #ff9900;
+  text-decoration: none;
+}
+.main{
+  background-image: url(img/forest.jpg);
+  background-repeat: no-repeat;
+  background-size:100% 1600px;
+  height: 1800px;
+}
+.main h1{
+  margin: 0;
+  text-align: left;
+  margin-left: 500px;
+  color:white;
+  padding-top: 90px;
+}
+.main2 h2{
+  color: white;
+  text-align: left;
+  margin-left: 500px;
+}
+img{
+  position: relative;
+  left:540px;
+  height: 200px;
+  width:200px;
+}
+form{
+  overflow: hidden;
+  margin-top: -70px;
+  position: relative;
+  right:360px;
+}
+input[type="submit"]{
+    border: none;
+    padding: 20px 30px;
+    margin-bottom: 15px;
+    background: black;
+    color: white;
+    float: right;
+}
+input[type="submit"]:hover{
+    background: #3d3938;
+    cursor: pointer;
+}
+a{
+    color: #545454;
+    display: block;
+}
+a:hover{
+    text-decoration: none;
+}
+.comment{
+  position: relative;
+  right:-950px;
+  top:-500px;
+  color: white;
+  width:250px;
+}
+.center{
+  color: white;
+  position: relative;
+  top:200px;
+  left:550px;
+  font-size: 20px;
+}
